@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Todo } from '@myorg2/data';
 
-interface Todo {
-  title: string;
-}
+
 
 @Component({
   selector: 'myorg2-root',
